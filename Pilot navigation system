@@ -1,0 +1,8 @@
+pilot = int(input("Mr.pilot please mention the altitude of your plane: "))
+if pilot==3000:
+print("You are safe to land Mr.pilot")
+elif pilot>3000 or pilot<=6000:
+print("Come to 3000 and open landing gear")
+elif pilot>=6000:
+print("Go around Mr.pilot")
+
